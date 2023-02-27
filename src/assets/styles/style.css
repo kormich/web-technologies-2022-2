@@ -2,10 +2,77 @@
 @import "./fonts.css";
 @import "./utils.css";
 
+.paragraph {
+	font-size: 16px;
+	line-height: 26px;
+	color: #1F3F68;
+}
+.h1 {
+	font-size: 64px;
+	color: #1F3F68;
+}
+.h2 {
+	font-weight: 500;
+	font-size: 44px;
+	text-align: center;
+
+}
+.h3 {
+	font-size: 36px;
+	text-align: center;
+
+}
+.h4 {
+	font-size: 20px;
+	line-height: 30px;
+	color: #1F3F68;
+
+}
+.input {
+	border: 1px solid #356EAD;
+	box-sizing: border-box;
+	border-radius: 10px;
+	opacity: 0.4;
+
+}
+.submit	{
+	background: linear-gradient(90deg, rgba(71, 118, 230, 1) 0%, rgba(152, 100, 235, 1) 100%);
+	box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+	border-radius: 10px;
+	border: 0;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+
+}
+.body{
+	background-image:url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613366137_188-p-fon-dlya-prezentatsii-bezhevii-myagkii-odn-202.jpg);
+}
+.header {
+	height: 60px;
+	background: linear-gradient(0deg, rgba(60,129,131,1) 0%, rgba(255,255,255,1) 100%);
+	line-height: 50px;
+}
+.header a {
+	padding: 15px;
+	border-radius: 50px;
+	border-right: 3px solid white;
+	box-shadow: 10px 1px 5px -5px black;
+	color: #000000;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 700;
+}
+.ul li{
+	display:inline;
+}
 .test {
-    color: yellow !important;
+	color: yellow !important;
 }
 
 .test {
-    color: red !important;
+	color: red !important;
 }
