@@ -1,0 +1,56 @@
+.stages__block{
+    width: 1222px;
+    margin: 80px 108px;
+}
+.stages-title{
+    margin-bottom: 34px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 144%;
+    letter-spacing: 0.326451px;
+    color: #101828;
+}
+.stages-form{
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.stages-form-group{
+    max-height: 600px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 440px;
+}
+.stages-el{
+    width: 344px;
+    height: 148px;
+    padding: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    /*background-size: contain;*/
+    /*background-position: top right;*/
+}
+.stages-el h3{
+    display: inline;
+    position: absolute;
+    margin-top: 15px;
+    justify-content: flex-start;
+    padding-left: 27px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.38px;
+    color: #101828;
+}
+.stages-el p{
+    margin-top: 17px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    color: #101828;
+}

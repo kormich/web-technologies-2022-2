@@ -1,0 +1,76 @@
+.book__block{
+    width: 1440px;
+    background-color: #2D66EE;
+    background-image: url("../assets/img/Noise.png");
+}
+.book-content{
+    padding: 80px 108px 20px 108px;
+    max-height: 600px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+.book-content h2{
+    width: 600px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 144%;
+    letter-spacing: 0.326451px;
+    color: #FCFCFD;
+}
+.book_form{
+    width: 600px;
+    background-color: #F2F4F7;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 0px 24px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+}
+.book_form-input{
+    /*max-height: 200px;*/
+    padding: 40px 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.book-form-el{
+    min-width: 264px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.book-form-el label{
+    margin-bottom: 8px;
+    display: block;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.078px;
+    color: #667085;
+}
+.book-form-el input{
+    margin-bottom: 40px;
+    border: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #101828;
+}
+.book_form button{
+    margin: -50px 24px 24px 351px ;
+    width: 225px;
+    height: 40px;
+    border: none;
+    background: #2D66EE;
+    border-radius: 8px;
+    color: #F2F4F7;
+    font-weight: 600;
+}
+.book-image{
+    position: relative;
+    top: -30px;
+    right: 50px;
+    margin: 0 auto;
+    width: 343.85px;
+    height: 520px;
+    background-image: url('../assets/img/book.png');
+}
