@@ -97,4 +97,18 @@
         width: 393px;
         padding: 32px 16px;
     }
+    .faq-content {
+        max-height: 1200px;
+        padding: 0 18px 0 18px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        column-gap: 24px;
+    }
+    .question1{
+        margin-top:45px;
+    }
+    .faq__block h2{
+        margin-bottom: 12px;
+    }
 }

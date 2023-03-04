@@ -124,6 +124,23 @@
 }
 @media screen and (max-width: 767px) {
     .book__block{
-        width: 425px;
+        max-width: 425px;
     }
+    .book-content{
+        padding:0;
+    }
+    .book__block h2 {
+        padding: 49px 40px 32px 40px;
+        font-size: 28px;
+        max-width: 348px;
+
+    }
+    .book-image{
+        background-image: none;
+    }
+    .book-content{
+        margin-left: 60px;
+        margin-top: 0px;
+    }
+
 }

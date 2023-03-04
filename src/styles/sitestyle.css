@@ -349,7 +349,7 @@ body{
     }
     .mobile-menu__phone{
         font-weight: 500;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 18px;
         letter-spacing: -0.154px;
         color: #2D66EE;
@@ -366,14 +366,28 @@ body{
     .mobile-menu__phone a{
         text-decoration: none;
     }
+    .mobile-menu__email a{
+        text-decoration: none;
+    }
     .mobile-menu__phone_icon:before{
         content: '';
         background-image: url("../assets/svg/phone.svg");
         width: 14%;
         height: 20px;
         position: absolute;
-        top: 2px;
+        top: -2px;
         left: -28px;
+        background-repeat: no-repeat;
+    }
+    .mobile-menu__emial_icon:before{
+        content: '';
+        background-image: url("../assets/svg/message.svg");
+        width: 14%;
+        height: 30px;
+        position: absolute;
+        top: 686px;
+        left: 515px;
+        background-repeat: no-repeat;
     }
 }
 
@@ -405,5 +419,95 @@ body{
     }
     .banner-info__form{
         width: auto;
+    }
+    .header{
+        position: fixed;
+        max-width: 360px;
+        width: 90%;
+    }
+
+    .mobile-menu__close{
+        top: 34px;
+        right: 29px;
+    }
+    .mobile-menu__logo{
+        width: 114px;
+        height: 18px;
+        display: flex;
+        justify-content: center;
+        margin-top: 98px;
+        margin-bottom: 52px;
+    }
+    .mobile-menu__logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .mobile-menu__nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 55px;
+    }
+    .mobile-menu__nav-item{
+        margin-bottom: 21px;
+    }
+    .mobile-menu__nav-item:last-of-type{
+        margin-bottom: 0;
+    }
+    .mobile-menu__nav-item a {
+        text-decoration: none;
+        color: #101828;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 144%;
+        letter-spacing: 0.326451px;
+    }
+    .mobile-menu__phone_icon{
+        margin-left: 28px;
+        position: relative;
+    }
+    .mobile-menu__phone{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.154px;
+        color: #2D66EE;
+        display: flex;
+        align-items: center;
+        margin-left: 13px;
+    }
+    .mobile-menu__contacts{
+        display: flex;
+        width: calc(100% - 30px);
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 250px;
+    }
+    .mobile-menu__phone a{
+        text-decoration: none;
+        margin-bottom: 32px;
+    }
+    .mobile-menu__email a{
+        text-decoration: none;
+    }
+    .mobile-menu__phone_icon:before{
+        content: '';
+        background-image: url("../assets/svg/phone.svg");
+        width: 14%;
+        height: 20px;
+        position: absolute;
+        top: -2px;
+        left: -28px;
+        background-repeat: no-repeat;
+    }
+    .mobile-menu__emial_icon:before{
+        content: '';
+        background-image: url("../assets/svg/message.svg");
+        width: 14%;
+        height: 30px;
+        position: absolute;
+        top: 580px;
+        left: 115px;
+        background-repeat: no-repeat;
     }
 }

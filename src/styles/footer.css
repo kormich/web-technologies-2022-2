@@ -72,8 +72,55 @@
 @media screen and (max-width: 767px) {
     .disign-footer{
         width: 425px;
+        max-height: 400px;
     }
     .ftr-info__title{
-        margin-top:22px ;
+        margin: 38px 122px 33px ;
+        font-size: 32px;
+        width: 182px;
+    }
+    .ftr1{
+        padding: 0;
+    }
+    .ftr2{
+        padding: 0 16px 0 36px;
+        height: 200px;
+    }
+    .contact-text{
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: -0.408px;
+        color: #FFFFFF;
+        width: 176px;
+    }
+    .footer-contacts {
+        width: 425px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contacts-element {
+        display: flex;
+        flex-direction:column;
+        row-gap: 10px;
+    }
+    .contact-container {
+        display: flex;
+        width: 125px;
+        align-items: center;
+        justify-content: left;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .contact-label{
+        color: #98A2B3;
+        width: 150px;
+    }
+    .ftr1{
+        padding-bottom: 32px;
     }
 }

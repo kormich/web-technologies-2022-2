@@ -121,4 +121,46 @@
         width: 395px;
         margin: 28px 15px;
     }
+    .team__container-info{
+        width: 395px;
+        max-height:1200px;
+        display: flex;
+        flex-direction: column;
+        column-gap: 16px;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+    .team__container-info h2{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .p1{
+        font-size: 14px;
+        width: 376px;
+    }
+    .team-video{
+        width: 395px;
+    }
+    .team-numbers-info{
+        width:110px  ;
+    }
+    .team-numbers-info h3{
+        font-size:28px ;
+    }
+    .team__container-info{
+        column-gap: 10px;
+        row-gap: 15px;
+    }
+    .team-numbers{
+        margin-left:0px ;
+    }
+    .p2{
+        width: 360px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.24px;
+        color: #101828;
+        margin-left: 0;
+    }
 }
