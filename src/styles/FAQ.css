@@ -65,3 +65,36 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.buttonsvg{
+    margin: 28px 0;
+    width: 63px;
+    height: 63px;
+    border: none;
+    background-color: #F2F4F7;
+    background-image: url('../assets/svg/buttonclose.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media screen and (max-width: 1439px) {
+    .faq__block{
+        width: 696px;
+        padding: 20px 36px;
+    }
+    .faq-content{
+        max-height: 800px;
+        padding: 0 55px 0 55px;
+        display: flex ;
+        flex-wrap: wrap;
+        flex-direction: column;
+        column-gap: 24px;
+    }
+    .faq__block h2{
+        font-size: 28px;}
+
+}
+@media screen and (max-width: 767px) {
+    .faq__block{
+        width: 393px;
+        padding: 32px 16px;
+    }
+}

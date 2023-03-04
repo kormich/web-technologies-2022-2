@@ -5,14 +5,14 @@
 }
 .book-content{
     padding: 80px 108px 20px 108px;
-    max-height: 600px;
+    max-height: 500px;
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
 }
-.book-content h2{
+.book__block h2{
+    padding: 80px 108px 0px 108px;
     width: 600px;
-    margin-bottom: 40px;
     font-weight: 700;
     font-size: 36px;
     line-height: 144%;
@@ -26,7 +26,6 @@
     border-radius: 12px;
 }
 .book_form-input{
-    /*max-height: 200px;*/
     padding: 40px 24px;
     display: flex;
     justify-content: space-between;
@@ -67,10 +66,64 @@
 }
 .book-image{
     position: relative;
-    top: -30px;
+    top: -150px;
     right: 50px;
     margin: 0 auto;
     width: 343.85px;
     height: 520px;
     background-image: url('../assets/img/book.png');
+}
+@media screen and (max-width: 1439px) {
+    .book__block{
+        width: 768px;
+    }
+    .book-content{
+        padding: 76px;
+        max-height: 750px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        max-width: 700px;
+        flex-direction: row;
+    }
+    .book_form{
+        max-width: 300px;
+        max-height: 431px;
+    }
+    .book-form-el{
+        width: 100%;
+        margin: 0 0 48px;
+        padding: 0;
+    }
+    .book_form button{
+        margin: 0;
+        position: relative;
+        top: -60px;
+        left: 25px;
+    }
+    .book-content h2 {
+        margin: 0;
+        font-size: 17px;
+
+    }
+    .book-form-el input{
+        margin-bottom: 15px;
+    }
+    .book-image{
+        position: relative;
+        top: -20px;
+        right: 0px;
+    }
+    .book__block h2{
+        width: 455px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 144%;
+        letter-spacing: 0.326451px;
+        color: #FCFCFD;
+    }
+}
+@media screen and (max-width: 767px) {
+    .book__block{
+        width: 425px;
+    }
 }

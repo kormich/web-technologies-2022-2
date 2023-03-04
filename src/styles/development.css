@@ -1,0 +1,123 @@
+.development__block{
+    max-height: 500px;
+    padding: 80px 108px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.description {
+    max-width: 500px;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 144%;
+    letter-spacing: 0.326451px;
+}
+.description-info{
+    margin-bottom: 34px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    color: #101828;
+
+}
+.Web__head {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.38px;
+}
+
+.Web__head-info {
+    max-width: 496px;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    margin-bottom: 32px;
+}
+.Web__head-info2 {
+    max-width: 496px;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+}
+.p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #344054
+}
+p span{
+    color: #2D66EE;
+}
+.Links__list{
+    max-height: 350px;
+    list-style-type: none;
+}
+.Links__list li {
+    text-decoration: none;
+    margin-bottom: 24px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1D2939;
+}
+.Links__list a {
+    text-decoration: none;
+    color: #1D2939;
+}
+.Links__list li:hover {
+    text-decoration: none;
+    color: #1D2939;
+    font-weight: 600;
+    border-bottom: #2D66EE 1px solid;
+}
+.Links__list li:after{
+    content: url('../assets/svg/arrow.svg');
+    padding-left: 21px;
+}
+@media screen and (max-width: 1439px) {
+.development__block{
+    max-width: 768px;
+    padding: 32px 40px;
+    max-height: 600px;
+}
+.description{
+    width:321px ;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 144%;
+    margin: 32px 0;
+    letter-spacing: 0.326451px;
+    color: #101828;
+}
+.description-info{
+    width: 321px;
+}
+.Web__head{
+    width: 321px;
+}
+.Web__head-info{
+    width: 321px;
+    font-size: 14px;
+}
+.Web__head-info2{
+    width: 321px;
+    font-size: 14px;
+}
+.Links__list{
+    margin: 210px 0 0 0;
+    margin-left: 30px;
+}
+}
+@media screen and (max-width: 767px) {
+    .development__block{
+        max-width: 425px;
+        padding: 32px 33px;
+        max-height: 600px;
+    }
+}

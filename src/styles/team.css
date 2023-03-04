@@ -19,7 +19,14 @@
     letter-spacing: 0.326451px;
     color: #101828;
 }
-.team__container-info p{
+.p1{
+    margin-bottom: 40px;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    color: #101828;
+}
+.p2{
     margin-bottom: 40px;
     font-size: 15px;
     line-height: 20px;
@@ -47,6 +54,7 @@
     margin-bottom: 8px;
 }
 .team-numbers-info p{
+    margin-bottom: 40px;
     font-size: 15px;
     line-height: 20px;
     letter-spacing: -0.24px;
@@ -61,4 +69,56 @@
     left: -3px;
     top: 8px;
     box-shadow: 0 25px 20px -10px rgba(0, 0, 0, 0.8);
+}
+@media screen and (max-width: 1439px) {
+    .team__block{
+        width: 704px;
+        margin: 38px 30px;
+    }
+    .team__container-info{
+        width: 704px;
+        max-height:1200px;
+        display: flex;
+        flex-direction: column;
+        column-gap: 16px;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+    .team__container-info h2{
+        font-size: 28px;
+    }
+    .p1{
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.24px;
+        color: #101828;
+        width: 414px;
+        /*margin-bottom: 470px;*/
+    }
+    .team-video{
+       /* position: relative;*/
+       /*top: -650px;*/
+        width: 707px;
+    }
+    .team-numbers{
+        margin-left: 34px;
+    }
+    .p2{
+        width: 613px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.24px;
+        color: #101828;
+        margin-left: 34px;
+
+    }
+
+
+}
+@media screen and (max-width: 767px) {
+    .team__block{
+        width: 395px;
+        margin: 28px 15px;
+    }
 }

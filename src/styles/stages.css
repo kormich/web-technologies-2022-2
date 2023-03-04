@@ -30,8 +30,6 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
     border-radius: 12px;
-    /*background-size: contain;*/
-    /*background-position: top right;*/
 }
 .stages-el h3{
     display: inline;
@@ -53,4 +51,38 @@
     line-height: 20px;
     letter-spacing: -0.24px;
     color: #101828;
+}
+@media screen and (max-width: 1439px) {
+    .stages__block{
+        width: 704px;
+        margin: 32px 39px;
+    }
+    .stages-form-group{
+        max-height: 1400px;
+        row-gap: 32px;
+    }
+    .stages-title{
+        margin-bottom: 44px;
+        font-size: 28px;
+    }
+    .stages-el {
+        width: 649px;
+        height: 100px;
+        padding: 24px;
+    }
+    .stages-el p{
+        width: 504px;
+        margin-top: 17px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.24px;
+        color: #101828;
+    }
+}
+@media screen and (max-width: 767px) {
+    .stages__block{
+        width: 704px;
+        margin: 32px 19px;
+    }
 }

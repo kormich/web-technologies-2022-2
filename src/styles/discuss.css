@@ -89,3 +89,33 @@
     position: absolute;
     top: 36px;
 }
+@media screen and (max-width: 1439px) {
+    .discuss__block{
+        width: 768px;
+        max-height: 600px;
+    }
+    .discuss-container{
+        margin: 22px 38px;
+    }
+    .discuss-content-info > h2{
+        font-size: 28px;
+        width: 195px;
+    }
+    .discuss-content-info > p{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        width: 330px;
+        height: 40px;
+        font-family: sans-serif;
+    }
+}
+@media screen and (max-width: 767px) {
+    .discuss__block{
+        width: 425px;
+        max-height: 600px;
+    }
+    .discuss-container{
+        margin: 34px 16px;
+    }
+}
